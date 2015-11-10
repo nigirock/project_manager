@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{angular-agility-DefinitelyTyped, angular-hotkeys-DefinitelyTyped, angular-notifications-DefinitelyTyped, angular2-DefinitelyTyped, angularjs-DefinitelyTyped, angularjs-toaster-DefinitelyTyped, angulartics-DefinitelyTyped}" />
+  </component>
+</project>

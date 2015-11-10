@@ -1,0 +1,187 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #eceeef;
+}
+.bg-img{
+    background: url("../img/bg.jpg") no-repeat;
+}
+/*========================== b-header ========================================*/
+.b-header__block-foto{
+    padding-top: 15px;
+}
+.b-header__man{
+    height: 415px;
+    background: url("../img/man.png") no-repeat center bottom;
+}
+.b-header__h4{
+    font-size: 19px;
+    font-style: italic;
+    color: #fff;
+    padding-top: 85px;
+    line-height: 35px;
+    position: relative;
+}
+.b-header__h4:after{
+    content: "";
+    width: 65px;
+    position: absolute;
+    height: 1px;
+    background-color: #fff;
+    bottom: -20px;
+    left: 0;
+    opacity: 0.3;
+}
+.b-header__author{
+    margin-top: 40px;
+}
+.b-header__author__name{
+    font-size: 14px;
+    font-style: italic;
+    color: #fff;
+}
+.b-header__author__work{
+    font-size: 14px;
+    opacity: 0.3;
+    color: #fff;
+    font-style: italic;
+}
+.btn .btn-success .b-header__button{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #49bc1f;
+    border-radius: 1px;
+    padding: 10px 35px;
+    margin-top: 30px;
+    border-bottom: 1px solid #2fa205;
+}
+/*============================= b-main ============================*/
+.b-main__h2{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 900;
+    color: #2a4656;
+}
+.b-main__button-group{
+    text-align: center;
+    margin-top: 60px;
+}
+.b-main__button-group .btn{
+    background-color: #fff;
+    border: 1px solid #d5d7d8;
+    border-radius: 2px;
+}
+.b-main__table{
+    margin-top: 32px;
+}
+.b-main__table-thead{
+    background-color: #dde1e3;
+    color: #2a4656;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+/*===================================== thead =============================*/
+    .b-main__table .b-main__table__thead__th-title{
+        font-weight: 400;
+        padding: 20px;
+    }
+    .b-main__table .b-main__table__thead__th-location{
+        font-weight: 400;
+        border-left: 1px solid #eceeef;
+        padding: 20px;
+    }
+    .b-main__table .b-main__table__thead__th-salary{
+        font-weight: 400;
+        text-align: right;
+        border-left: 1px solid #eceeef;
+        padding: 20px;
+    }
+    .b-main__table .b-main__table__thead__th-completed{
+        font-weight: 400;
+        text-align: center;
+        border-left: 1px solid #eceeef;
+        padding: 20px;
+    }
+    .b-main__table .b-main__table__thead__th-cost{
+        font-weight: 400;
+        text-align: right;
+        border-left: 1px solid #eceeef;
+        padding: 20px;
+    }
+    .b-main__table .b-main__table__thead__th-recruiter{
+        font-weight: 400;
+        border-left: 1px solid #eceeef;
+        padding: 20px 80px 20px 20px;
+    }
+  /*========================================= tbody ==============================*/
+.b-main__table__tbody .b-main__table__tbody__td-salary{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2a4656;
+    vertical-align: middle;
+    text-align: right;
+    padding: 15px 20px 15px 20px;
+}
+.b-main__table__tbody .b-main__table__tbody__td-style{
+    vertical-align: middle;
+    color: #666;
+    padding: 15px 0 15px 20px;
+}
+.b-main__table__tbody .b-main__table__tbody__td-cost{
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 34px;
+    color: #016da7;
+    text-align: right;
+    padding: 15px 20px 15px 20px;
+}
+.b-main__table__tbody .b-main__table__tbody__td-completed{
+    vertical-align: middle;
+    text-align: center;
+    padding: 15px 0 15px 20px;
+}
+.b-main__table__tbody .b-main__table__tbody__td-recruiter{
+    vertical-align: middle;
+    padding: 15px 0 15px 20px;
+}
+.b-main__table__tbody__td-recruiter-avatar{
+    background: url("../img/recruiter.png") no-repeat right top;
+    display: block;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.b-main__table__tbody__td-recruiter-avatar-name{
+    margin: 8px 0 0 0;
+    color: #09579c;
+    font-weight: bold;
+}
+.b-main__table__tbody__td-recruiter-avatar-state{
+    margin: 0;
+    font-size: 12px;
+    color: #8e9ba3;
+}
+/*===================================== b-button ========================*/
+.b-button{
+    text-align: center;
+    padding: 30px 0 60px 0;
+}
+.b-button__btn1{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #006ca9;
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.b-button__btn2{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #d5d6d7;
+    display: inline-block;
+    cursor: pointer;
+}
