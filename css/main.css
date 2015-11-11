@@ -182,6 +182,12 @@ body{
     color: #fff;
     vertical-align: middle;
 }
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #eceeef;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #e8ebed;
+}
 /*===================================== b-button ========================*/
 .b-button{
     text-align: center;
