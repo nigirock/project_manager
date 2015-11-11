@@ -1,0 +1,97 @@
+{
+  "tableTechnology":[
+    {
+      "title":"Head of Sales",
+      "location":"Los Angeles, California",
+      "salary":"$100 000",
+      "completed":true,
+      "cost":"$1,080",
+      "recruiterName":"Crhis Abate",
+      "recruiterState":"Providence,CA"
+    },
+    {
+      "title":"Head of Sales",
+      "location":"Los Angeles, California",
+      "salary":"$100 000",
+      "completed":true,
+      "cost":"$1,080",
+      "recruiterName":"Crhis Abate",
+      "recruiterState":"Providence,CA"
+    },
+    {
+      "title":"Head of Sales",
+      "location":"Los Angeles, California",
+      "salary":"$100 000",
+      "completed":true,
+      "cost":"$1,080",
+      "recruiterName":"Crhis Abate",
+      "recruiterState":"Providence,CA"
+    },
+    {
+      "title":"Head of Sales",
+      "location":"Los Angeles, California",
+      "salary":"$100 000",
+      "completed":true,
+      "cost":"$1,080",
+      "recruiterName":"Crhis Abate",
+      "recruiterState":"Providence,CA"
+    },
+    {
+      "title":"Head of Sales",
+      "location":"Los Angeles, California",
+      "salary":"$100 000",
+      "completed":true,
+      "cost":"$1,080",
+      "recruiterName":"Crhis Abate",
+      "recruiterState":"Providence,CA"
+    }
+  ],
+  "tableSales":
+          [
+            {
+              "title":"Sales",
+              "location":"Los Angeles",
+              "salary":"$100 000",
+              "completed":true,
+              "cost":"$1,080",
+              "recruiterName":"Crhis Abate",
+              "recruiterState":"Providence,CA"
+            },
+            {
+              "title":"Sales",
+              "location":"Los Angeles",
+              "salary":"$100 000",
+              "completed":true,
+              "cost":"$1,080",
+              "recruiterName":"Crhis Abate",
+              "recruiterState":"Providence,CA"
+            },
+            {
+              "title":"Head of Sales",
+              "location":"Los Angeles, California",
+              "salary":"$100 000",
+              "completed":true,
+              "cost":"$1,080",
+              "recruiterName":"Crhis Abate",
+              "recruiterState":"Providence,CA"
+            },
+            {
+              "title":"Head of Sales",
+              "location":"Los Angeles, California",
+              "salary":"$100 000",
+              "completed":true,
+              "cost":"$1,080",
+              "recruiterName":"Crhis Abate",
+              "recruiterState":"Providence,CA"
+            },
+            {
+              "title":"Head of Sales",
+              "location":"Los Angeles, California",
+              "salary":"$100 000",
+              "completed":true,
+              "cost":"$1,080",
+              "recruiterName":"Crhis Abate",
+              "recruiterState":"Providence,CA"
+            }
+          ]
+}

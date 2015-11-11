@@ -1,0 +1,13 @@
+
+    <tr ng-repeat="item in tableDataSales">
+        <td class="b-main__table__tbody__td-style">{{item.title}}</td>
+        <td class="b-main__table__tbody__td-style">{{item.location}}</td>
+        <td class="b-main__table__tbody__td-salary">{{item.salary}}</td>
+        <td class="b-main__table__tbody__td-completed"><span ng-class="{'glyphicon glyphicon-ok':item.completed}"></span></td>
+        <td class="b-main__table__tbody__td-cost">{{item.cost}}</td>
+        <td class="b-main__table__tbody__td-recruiter">
+            <span class="b-main__table__tbody__td-recruiter-avatar"></span>
+            <p class="b-main__table__tbody__td-recruiter-avatar-name">{{item.recruiterName}}</p>
+            <p class="b-main__table__tbody__td-recruiter-avatar-state">{{item.recruiterState}}</p>
+        </td>
+    </tr>

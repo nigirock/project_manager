@@ -45,7 +45,7 @@ body{
     color: #fff;
     font-style: italic;
 }
-.btn .btn-success .b-header__button{
+.b-header__bg .b-header__button {
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
@@ -80,6 +80,15 @@ body{
     font-size: 13px;
     text-transform: uppercase;
 }
+/*======================================== btn group ======================*/
+.b-main__button-group .btn{
+    padding: 6px 15px;
+}
+.b-main__button-group .active{
+    background-color: #3ab03a;
+    color: #fff;
+}
+
 /*===================================== thead =============================*/
     .b-main__table .b-main__table__thead__th-title{
         font-weight: 400;
@@ -162,6 +171,16 @@ body{
     margin: 0;
     font-size: 12px;
     color: #8e9ba3;
+}
+.glyphicon{
+    border-radius: 50%;
+    background-color: #3faa18;
+    height: 25px;
+    width: 25px;
+}
+.glyphicon-ok:before{
+    color: #fff;
+    vertical-align: middle;
 }
 /*===================================== b-button ========================*/
 .b-button{
