@@ -85,75 +85,122 @@ body{
     padding: 6px 15px;
 }
 .b-main__button-group .active{
+    color: #333;
+}
+.b-main__button-group .btn:hover{
+    background-color: #3ab03a;
+    color: #fff;
+}
+.b-main__button-group .btn:focus{
+    background-color: #3ab03a;
+    color: #fff;
+    outline: none;
+}
+.active{
     background-color: #3ab03a;
     color: #fff;
 }
 
-/*===================================== thead =============================*/
-    .b-main__table .b-main__table__thead__th-title{
+
+/*===================================== block_main thead =============================*/
+.block_main_thead{
+    margin-top: 30px;
+}
+    .block_main__title{
         font-weight: 400;
         padding: 20px;
+        background-color: #dde1e3;
+        text-transform: uppercase;
+        color: #2a4656;
+        font-size: 13px;
     }
-    .b-main__table .b-main__table__thead__th-location{
+    .block_main__location{
         font-weight: 400;
         border-left: 1px solid #eceeef;
         padding: 20px;
+        background-color: #dde1e3;
+        text-transform: uppercase;
+        color: #2a4656;
+        font-size: 13px;
     }
-    .b-main__table .b-main__table__thead__th-salary{
+    .block_main__salary{
         font-weight: 400;
         text-align: right;
         border-left: 1px solid #eceeef;
         padding: 20px;
+        background-color: #dde1e3;
+        text-transform: uppercase;
+        color: #2a4656;
+        font-size: 13px;
     }
-    .b-main__table .b-main__table__thead__th-completed{
+    .block_main__completed{
         font-weight: 400;
         text-align: center;
         border-left: 1px solid #eceeef;
-        padding: 20px;
+        padding: 20px 0;
+        background-color: #dde1e3;
+        text-transform: uppercase;
+        color: #2a4656;
+        font-size: 13px;
     }
-    .b-main__table .b-main__table__thead__th-cost{
+    .block_main__total_cost{
         font-weight: 400;
         text-align: right;
         border-left: 1px solid #eceeef;
         padding: 20px;
+        background-color: #dde1e3;
+        text-transform: uppercase;
+        color: #2a4656;
+        font-size: 13px;
     }
-    .b-main__table .b-main__table__thead__th-recruiter{
+    .block_main__recruiter{
         font-weight: 400;
         border-left: 1px solid #eceeef;
         padding: 20px 80px 20px 20px;
+        background-color: #dde1e3;
+        text-transform: uppercase;
+        color: #2a4656;
+        font-size: 13px;
     }
   /*========================================= tbody ==============================*/
-.b-main__table__tbody .b-main__table__tbody__td-salary{
+.row_block{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #d8dadb;
+}
+.row_block:nth-child(odd) {
+    background-color: #eceeef;
+}
+.row_block:nth-child(even) {
+    background-color: #e8ebed;
+}
+.technology_block__title{
+    padding: 20px 0 20px 20px;
+}
+.technology_block__location{
+    padding: 20px 0 20px 20px;
+}
+.technology_block__salary{
+    padding: 20px 20px 20px 0;
+    text-align: right;
     font-size: 18px;
     font-weight: bold;
     color: #2a4656;
-    vertical-align: middle;
+}
+.technology_block__completed{
+    padding: 20px 0;
+    text-align: center;
+}
+.technology_block__cost{
+    padding: 10px 20px 10px 0;
     text-align: right;
-    padding: 15px 20px 15px 20px;
-}
-.b-main__table__tbody .b-main__table__tbody__td-style{
-    vertical-align: middle;
-    color: #666;
-    padding: 15px 0 15px 20px;
-}
-.b-main__table__tbody .b-main__table__tbody__td-cost{
-    vertical-align: middle;
-    font-weight: bold;
     font-size: 34px;
     color: #016da7;
-    text-align: right;
-    padding: 15px 20px 15px 20px;
+    font-weight: bold;
 }
-.b-main__table__tbody .b-main__table__tbody__td-completed{
-    vertical-align: middle;
-    text-align: center;
-    padding: 15px 0 15px 20px;
+.technology_block-recruiter{
+    padding-top: 10px;
 }
-.b-main__table__tbody .b-main__table__tbody__td-recruiter{
-    vertical-align: middle;
-    padding: 15px 0 15px 20px;
-}
-.b-main__table__tbody__td-recruiter-avatar{
+.technology_block-recruiter-avatar{
     background: url("../img/recruiter.png") no-repeat right top;
     display: block;
     border-radius: 50%;
@@ -162,12 +209,12 @@ body{
     float: left;
     margin-right: 10px;
 }
-.b-main__table__tbody__td-recruiter-avatar-name{
+.technology_block-recruiter-avatar-name{
     margin: 8px 0 0 0;
     color: #09579c;
     font-weight: bold;
 }
-.b-main__table__tbody__td-recruiter-avatar-state{
+.technology_block-recruiter-avatar-state{
     margin: 0;
     font-size: 12px;
     color: #8e9ba3;
@@ -182,11 +229,11 @@ body{
     color: #fff;
     vertical-align: middle;
 }
-.table-striped>tbody>tr:nth-of-type(odd) {
-    background-color: #eceeef;
+.table_1{
+
 }
-.table-striped>tbody>tr:nth-of-type(even) {
-    background-color: #e8ebed;
+.table_2{
+    display: none;
 }
 /*===================================== b-button ========================*/
 .b-button{
@@ -209,4 +256,7 @@ body{
     background-color: #d5d6d7;
     display: inline-block;
     cursor: pointer;
+}
+.visible{
+    opacity: 0.5;
 }

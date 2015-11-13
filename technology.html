@@ -1,15 +1,14 @@
-
-<tbody class="b-main__table__tbody">
-    <tr ng-repeat="item in tableDataTechnology">
-        <td class="b-main__table__tbody__td-style">{{item.title}}</td>
-        <td class="b-main__table__tbody__td-style">{{item.location}}</td>
-        <td class="b-main__table__tbody__td-salary">{{item.salary}}</td>
-        <td class="b-main__table__tbody__td-completed"><span ng-class="{'glyphicon glyphicon-ok':item.completed}"></span></td>
-        <td class="b-main__table__tbody__td-cost">{{item.cost}}</td>
-        <td class="b-main__table__tbody__td-recruiter">
-            <span class="b-main__table__tbody__td-recruiter-avatar"></span>
-            <p class="b-main__table__tbody__td-recruiter-avatar-name">{{item.recruiterName}}</p>
-            <p class="b-main__table__tbody__td-recruiter-avatar-state">{{item.recruiterState}}</p>
-        </td>
-    </tr>
-</tbody>
+<div class="technology_block col-md-12">
+    <div class="col-md-12 row_block" ng-repeat="item in tableDataTechnology">
+        <div class="col-md-2 technology_block__title">{{item.title}}</div>
+        <div class="col-md-3 technology_block__location">{{item.location}}</div>
+        <div class="col-md-2 technology_block__salary">{{item.salary}}</div>
+        <div class="col-md-1 technology_block__completed"><span ng-class="{'glyphicon glyphicon-ok':item.completed}"></span></div>
+        <div class="col-md-2 technology_block__cost">{{item.cost}}</div>
+        <div class="col-md-2 technology_block-recruiter">
+            <span class="technology_block-recruiter-avatar"></span>
+            <p class="technology_block-recruiter-avatar-name">{{item.recruiterName}}</p>
+            <p class="technology_block-recruiter-avatar-state">{{item.recruiterState}}</p>
+        </div>
+    </div>
+</div>

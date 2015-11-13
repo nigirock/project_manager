@@ -4,13 +4,6 @@ app.controller("mainCtrl",function($scope,$http,$location){
         $scope.tableDataTechnology = data.tableTechnology;
         $scope.tableDataSales = data.tableSales;
         $location.path("/index.html");
-
-        $scope.goToTechnology = function(){
-            $location.path("/technology");
-        };
-        $scope.goToSales = function(){
-            $location.path("/sales")
-        };
     });
 });
 app.config(function($routeProvider,$locationProvider){

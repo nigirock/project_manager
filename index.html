@@ -36,20 +36,12 @@
             <div class="b-main">
                 <h2 class="b-main__h2">Recently Completed Projects</h2>
             </div>
-            <div class="b-main__button-group">
-                <button class="btn active" ng-click=goToTechnology()>Technology</button>
-                <button class="btn" ng-click=goToSales()>Sales</button>
-                <button class="btn">Marketing</button>
-                <button class="btn">Operations</button>
-                <button class="btn">Professional Services</button>
-                <button class="btn">HR</button>
-                <button class="btn">Healthcare</button>
-            </div>
-                <div ng-table></div>
+                <div ng-button-row></div>
+            <div ng-block></div>
         </section>
         <section class="col-md-12 b-button">
-            <span class="b-button__btn1"></span>
-            <span class="b-button__btn2"></span>
+            <span class="b-button__btn1" ng-click=prePage() ng-page></span>
+            <span class="b-button__btn2" ng-click=nextPage() ng-page></span>
         </section>
     </div>
 </div>
