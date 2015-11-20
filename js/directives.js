@@ -1,7 +1,7 @@
 app.directive("ngButtonRow",function($location){
     return{
         link: function(scope,element){
-            console.log(element.find("button")[0])
+            console.log(element.find("button")[0]);
             var btn0 = element.find("button")[0];
             $(btn0).addClass('active');
             scope.goToTechnology = function(){
@@ -26,7 +26,7 @@ app.directive("ngButtonRow",function($location){
             };
         },
         restrict: "A",
-        templateUrl: "button_row.html"
+        templateUrl: "b-button_row/button_row.html"
     }
 });
 app.directive('ngActive', function() {
@@ -47,7 +47,7 @@ app.directive("ngBlock",function(){
 
         },
         restrict: "A",
-        templateUrl: "block_main.html"
+        templateUrl: "b-main/block_main.html"
     }
 });
 app.directive("ngPage",function($location){

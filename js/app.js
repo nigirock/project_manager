@@ -15,22 +15,22 @@ app.config(function($routeProvider,$locationProvider){
         templateUrl:"/project_manager/technology.html"
     });
     $routeProvider.when("/technology",{
-        templateUrl:"/project_manager/technology.html"
+        templateUrl:"/project_manager/b-technology/technology.html"
     });
     $routeProvider.when("/technology_2",{
-        templateUrl:"/project_manager/technology_2.html"
+        templateUrl:"/project_manager/b-technology/technology_2.html"
     });
     $routeProvider.when("/sales",{
-        templateUrl:"/project_manager/sales.html"
+        templateUrl:"/project_manager/b-sales/sales.html"
     });
     $routeProvider.when("/sales_2",{
-        templateUrl:"/project_manager/sales_2.html"
+        templateUrl:"/project_manager/b-sales/sales_2.html"
     });
     $routeProvider.when("/marketing",{
-        templateUrl:"/project_manager/marketing.html"
+        templateUrl:"/project_manager/b-marketing/marketing.html"
     });
     $routeProvider.when("/marketing_2",{
-        templateUrl:"/project_manager/marketing_2.html"
+        templateUrl:"/project_manager/b-marketing/marketing_2.html"
     });
     $routeProvider.otherwise({
         redirectTo:"/"
