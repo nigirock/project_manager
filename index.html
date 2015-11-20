@@ -9,42 +9,44 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,300italic,600italic,800italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <script src="js/angular.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/directives.js"></script>
-    <script src="js/route-provider.min.js"></script>
+
 </head>
 
 <body ng-controller="mainCtrl">
 <div class="container-fluid bg-img">
     <div class="container">
         <header class="col-md-12">
-            <div class="b-header__bg col-md-12">
-                <div class="col-md-6">
+            <div class="b-header__bg col-md-12 col-sm-12">
+                <div class="col-md-6 col-sm-6">
                     <h4 class="b-header__h4">“We have saved more than $50,000 in agency fees in the seven months we have worked with RecruitLoop.”</h4>
                     <p class="b-header__author"><span class="b-header__author__name">John Gareau,</span><span class="b-header__author__work"> VP, Digital at Eargo</span></p>
                     <button class="btn btn-success b-header__button">see more client stories</button>
                 </div>
-                <div class="col-md-6 b-header__block-foto">
+                <div class="col-md-6 col-sm-6 b-header__block-foto">
                     <div class="b-header__man">
-
                     </div>
                 </div>
             </div>
         </header>
-        <section class="col-md-12">
+        <section class="col-md-12 col-sm-12">
             <div class="b-main">
                 <h2 class="b-main__h2">Recently Completed Projects</h2>
             </div>
                 <div ng-button-row></div>
-            <div ng-block></div>
+                <div ng-block></div>
         </section>
-        <section class="col-md-12 b-button">
-            <span class="b-button__btn1" ng-click=prePage() ng-page></span>
-            <span class="b-button__btn2" ng-click=nextPage() ng-page></span>
+
+        <section class="col-md-12 col-sm-12 b-button" ng-page>
+            <span class="b-button__btn1" ng-click=prePage()></span>
+            <span class="b-button__btn2" ng-click=nextPage()></span>
         </section>
     </div>
 </div>
 </body>
-
+<script src="js/jquery.min.js"></script>
+<script src="js/angular.min.js"></script>
+<script src="js/angular-animate.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/directives.js"></script>
+<script src="js/route-provider.min.js"></script>
 </html>
